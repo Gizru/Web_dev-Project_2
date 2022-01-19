@@ -1,0 +1,297 @@
+﻿body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-end;
+    margin: 0px 16px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 20px;
+    height: 15px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 15px;
+    height: 20px;
+}
+
+h4{
+    margin : 0px;
+}
+
+h5{
+    margin : 0px;
+}
+
+h6 {
+    font-size: 15px;
+    height: 15px;
+    padding: 20px;
+    margin: 0px;
+}
+
+strong {
+    font-size: medium;
+}
+
+.header__divs {
+    margin-left: auto;
+}
+
+.header__div {
+    padding: 32px 48px;
+    background-color: white;
+    border: 0;
+}
+
+    .header__div:active {
+        color: #0065FC;
+        border-top: #0065FC solid 2px;
+    }
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px 16px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.inputDiv {
+    padding: 16px 0px;
+    display: flex;
+    width: 300px;
+    flex-flow: row nowrap;
+    height: 30px;
+}
+
+#icon {
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 20px;
+    padding: 10px;
+}
+
+#searchBar {
+    border: 1px solid #F2F2F2;
+    height: 40px;
+}
+
+#searchButton {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 40px;
+    border: 0;
+    background-color: #0065FC;
+    color: white;
+    font-weight: 700;
+}
+
+    #searchButton:hover {
+        background-color: darkblue;
+    }
+
+#searchIcon {
+    display: none;
+}
+
+.location {
+    width: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.filters {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 960px;
+}
+
+.filter {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 2px solid #F2F2F2;
+    border-radius: 60px;
+}
+
+.filter:hover{
+    background-color : #DEEBFF;
+}
+
+.SearchSpace {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.Content {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.Accommodations {
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container {
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+    .container:nth-child(2) {
+        width: 800px;
+        margin-left: 32px;
+    }
+
+.accomodationsitems {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.accomodationsitem {
+    background-color: white;
+    border-radius: 25px;
+    max-width: 220px;
+    max-height: 200px;
+    margin: 16px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+
+.itemimg {
+    border-radius: 25px 25px 0px 0px;
+    max-height: 125px;
+    width: 220px;
+}
+
+.popularitems {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    min-width: 300px;
+}
+
+.popularitem {
+    background-color: white;
+    border-radius: 25px;
+    min-width: 150px;
+    height: 140px;
+    margin: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+
+.popularitemimg {
+    border-radius: 25px 0px 0px 25px;
+    height: 140px;
+    width: 190px;
+    object-fit: cover;
+}
+
+.popularitemtext {
+    padding-left: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.Activities {
+    margin: 32px 0px;
+}
+
+#first {
+    height: 100%;
+}
+
+#second {
+    height: 250px;
+}
+
+#third {
+    height: 185px;
+}
+
+#forth {
+    height: 100%;
+}
+
+#fifth {
+    height: 185px;
+}
+
+#sixth {
+    height: 250px;
+}
+
+.activitiesitems {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.activitiesdiv {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 25%;
+}
+
+.activitiesitem {
+    border-radius: 25px;
+    margin: 16px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.activitiesitemimg {
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+}
+
+#big {
+    height: 90%;
+}
+
+.activitiesitemtext {
+    padding: 0px 0px 16px 16px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+
+.foot {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.under:hover {
+    text-decoration: underline;
+}
